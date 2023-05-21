@@ -37,3 +37,259 @@ Processing by PublicController#home as HTML
 Completed 200 OK in 144ms (Views: 143.5ms | ActiveRecord: 0.0ms | Allocations: 91637)
 
 
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddParentIdToCategories (20230520180026)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "categories" ADD "parent_id" integer[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230520180026"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-05-20 13:42:59 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PublicController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/home.html.erb within layouts/application
+  Rendered public/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 330)
+  Rendered layout layouts/application.html.erb (Duration: 41.5ms | Allocations: 34163)
+Completed 200 OK in 46ms (Views: 43.5ms | ActiveRecord: 0.0ms | Allocations: 37337)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-05-20 19:58:22 -0500
+Processing by PublicController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/home.html.erb within layouts/application
+  Rendered public/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 13013)
+Completed 200 OK in 7ms (Views: 6.7ms | Allocations: 13533)
+
+
+Started GET "/" for ::1 at 2023-05-20 19:58:38 -0500
+Processing by PublicController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/home.html.erb within layouts/application
+  Rendered public/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2293)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 2555)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample1"], ["url", "categoryExample1"], ["created_at", "2023-05-21 01:17:46.854665"], ["updated_at", "2023-05-21 01:17:46.854665"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample2"], ["url", "categoryExample2"], ["created_at", "2023-05-21 01:17:46.857081"], ["updated_at", "2023-05-21 01:17:46.857081"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample3"], ["url", "categoryExample3"], ["created_at", "2023-05-21 01:17:46.858341"], ["updated_at", "2023-05-21 01:17:46.858341"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample4"], ["url", "categoryExample4"], ["created_at", "2023-05-21 01:17:46.859696"], ["updated_at", "2023-05-21 01:17:46.859696"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample5"], ["url", "categoryExample5"], ["created_at", "2023-05-21 01:17:46.861158"], ["updated_at", "2023-05-21 01:17:46.861158"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample6"], ["url", "categoryExample6"], ["created_at", "2023-05-21 01:17:46.877478"], ["updated_at", "2023-05-21 01:17:46.877478"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample7"], ["url", "categoryExample7"], ["created_at", "2023-05-21 01:17:46.878989"], ["updated_at", "2023-05-21 01:17:46.878989"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample8"], ["url", "categoryExample8"], ["created_at", "2023-05-21 01:17:46.880346"], ["updated_at", "2023-05-21 01:17:46.880346"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample9"], ["url", "categoryExample9"], ["created_at", "2023-05-21 01:17:46.881550"], ["updated_at", "2023-05-21 01:17:46.881550"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample10"], ["url", "cateogryExample10"], ["created_at", "2023-05-21 01:17:46.882603"], ["updated_at", "2023-05-21 01:17:46.882603"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample11"], ["url", "cateogryExample11"], ["created_at", "2023-05-21 01:17:46.883734"], ["updated_at", "2023-05-21 01:17:46.883734"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample12"], ["url", "cateogryExample12"], ["created_at", "2023-05-21 01:17:46.885048"], ["updated_at", "2023-05-21 01:17:46.885048"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample13"], ["url", "cateogryExample13"], ["created_at", "2023-05-21 01:17:46.886160"], ["updated_at", "2023-05-21 01:17:46.886160"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample14"], ["url", "cateogryExample14"], ["created_at", "2023-05-21 01:17:46.887458"], ["updated_at", "2023-05-21 01:17:46.887458"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample15"], ["url", "cateogryExample15"], ["created_at", "2023-05-21 01:17:46.888673"], ["updated_at", "2023-05-21 01:17:46.888673"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample16"], ["url", "cateogryExample16"], ["created_at", "2023-05-21 01:17:46.890022"], ["updated_at", "2023-05-21 01:17:46.890022"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample17"], ["url", "categoryExample17"], ["created_at", "2023-05-21 01:17:46.891099"], ["updated_at", "2023-05-21 01:17:46.891099"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample18"], ["url", "categoryExample18"], ["created_at", "2023-05-21 01:17:46.892164"], ["updated_at", "2023-05-21 01:17:46.892164"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample19"], ["url", "categoryExample19"], ["created_at", "2023-05-21 01:17:46.893203"], ["updated_at", "2023-05-21 01:17:46.893203"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample20"], ["url", "categoryExample20"], ["created_at", "2023-05-21 01:17:46.894244"], ["updated_at", "2023-05-21 01:17:46.894244"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample21"], ["url", "categoryExample21"], ["created_at", "2023-05-21 01:17:46.895257"], ["updated_at", "2023-05-21 01:17:46.895257"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample22"], ["url", "categoryExample22"], ["created_at", "2023-05-21 01:17:46.896306"], ["updated_at", "2023-05-21 01:17:46.896306"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample23"], ["url", "categoryExample23"], ["created_at", "2023-05-21 01:17:46.897344"], ["updated_at", "2023-05-21 01:17:46.897344"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample24"], ["url", "categoryExample24"], ["created_at", "2023-05-21 01:17:46.898392"], ["updated_at", "2023-05-21 01:17:46.898392"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample25"], ["url", "categoryExample25"], ["created_at", "2023-05-21 01:17:46.899430"], ["updated_at", "2023-05-21 01:17:46.899430"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample26"], ["url", "cateogryExample26"], ["created_at", "2023-05-21 01:17:46.900505"], ["updated_at", "2023-05-21 01:17:46.900505"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample27"], ["url", "cateogryExample27"], ["created_at", "2023-05-21 01:17:46.901546"], ["updated_at", "2023-05-21 01:17:46.901546"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample28"], ["url", "cateogryExample28"], ["created_at", "2023-05-21 01:17:46.902618"], ["updated_at", "2023-05-21 01:17:46.902618"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample29"], ["url", "cateogryExample29"], ["created_at", "2023-05-21 01:17:46.903652"], ["updated_at", "2023-05-21 01:17:46.903652"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample30"], ["url", "cateogryExample30"], ["created_at", "2023-05-21 01:17:46.904700"], ["updated_at", "2023-05-21 01:17:46.904700"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample31"], ["url", "cateogryExample31"], ["created_at", "2023-05-21 01:17:46.905804"], ["updated_at", "2023-05-21 01:17:46.905804"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample32"], ["url", "cateogryExample32"], ["created_at", "2023-05-21 01:17:46.907690"], ["updated_at", "2023-05-21 01:17:46.907690"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample1"], ["url", "categoryExample1"], ["created_at", "2023-05-21 01:18:37.111866"], ["updated_at", "2023-05-21 01:18:37.111866"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample2"], ["url", "categoryExample2"], ["created_at", "2023-05-21 01:18:37.113795"], ["updated_at", "2023-05-21 01:18:37.113795"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample3"], ["url", "categoryExample3"], ["created_at", "2023-05-21 01:18:37.115095"], ["updated_at", "2023-05-21 01:18:37.115095"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample4"], ["url", "categoryExample4"], ["created_at", "2023-05-21 01:18:37.116325"], ["updated_at", "2023-05-21 01:18:37.116325"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample5"], ["url", "categoryExample5"], ["created_at", "2023-05-21 01:18:37.117846"], ["updated_at", "2023-05-21 01:18:37.117846"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample6"], ["url", "categoryExample6"], ["created_at", "2023-05-21 01:18:37.119475"], ["updated_at", "2023-05-21 01:18:37.119475"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.2ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample7"], ["url", "categoryExample7"], ["created_at", "2023-05-21 01:18:37.137409"], ["updated_at", "2023-05-21 01:18:37.137409"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample8"], ["url", "categoryExample8"], ["created_at", "2023-05-21 01:18:37.138905"], ["updated_at", "2023-05-21 01:18:37.138905"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample9"], ["url", "categoryExample9"], ["created_at", "2023-05-21 01:18:37.139990"], ["updated_at", "2023-05-21 01:18:37.139990"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample10"], ["url", "cateogryExample10"], ["created_at", "2023-05-21 01:18:37.141190"], ["updated_at", "2023-05-21 01:18:37.141190"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample11"], ["url", "cateogryExample11"], ["created_at", "2023-05-21 01:18:37.142339"], ["updated_at", "2023-05-21 01:18:37.142339"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample12"], ["url", "cateogryExample12"], ["created_at", "2023-05-21 01:18:37.143719"], ["updated_at", "2023-05-21 01:18:37.143719"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample13"], ["url", "cateogryExample13"], ["created_at", "2023-05-21 01:18:37.144919"], ["updated_at", "2023-05-21 01:18:37.144919"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample14"], ["url", "cateogryExample14"], ["created_at", "2023-05-21 01:18:37.146256"], ["updated_at", "2023-05-21 01:18:37.146256"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample15"], ["url", "cateogryExample15"], ["created_at", "2023-05-21 01:18:37.147500"], ["updated_at", "2023-05-21 01:18:37.147500"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample16"], ["url", "cateogryExample16"], ["created_at", "2023-05-21 01:18:37.148706"], ["updated_at", "2023-05-21 01:18:37.148706"], ["parent_id", nil]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample17"], ["url", "categoryExample17"], ["created_at", "2023-05-21 01:18:37.149838"], ["updated_at", "2023-05-21 01:18:37.149838"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample18"], ["url", "categoryExample18"], ["created_at", "2023-05-21 01:18:37.150931"], ["updated_at", "2023-05-21 01:18:37.150931"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample19"], ["url", "categoryExample19"], ["created_at", "2023-05-21 01:18:37.151991"], ["updated_at", "2023-05-21 01:18:37.151991"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample20"], ["url", "categoryExample20"], ["created_at", "2023-05-21 01:18:37.153071"], ["updated_at", "2023-05-21 01:18:37.153071"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample21"], ["url", "categoryExample21"], ["created_at", "2023-05-21 01:18:37.154107"], ["updated_at", "2023-05-21 01:18:37.154107"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample22"], ["url", "categoryExample22"], ["created_at", "2023-05-21 01:18:37.155178"], ["updated_at", "2023-05-21 01:18:37.155178"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample23"], ["url", "categoryExample23"], ["created_at", "2023-05-21 01:18:37.156243"], ["updated_at", "2023-05-21 01:18:37.156243"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample24"], ["url", "categoryExample24"], ["created_at", "2023-05-21 01:18:37.157279"], ["updated_at", "2023-05-21 01:18:37.157279"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample25"], ["url", "categoryExample25"], ["created_at", "2023-05-21 01:18:37.158312"], ["updated_at", "2023-05-21 01:18:37.158312"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample26"], ["url", "cateogryExample26"], ["created_at", "2023-05-21 01:18:37.159319"], ["updated_at", "2023-05-21 01:18:37.159319"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample27"], ["url", "cateogryExample27"], ["created_at", "2023-05-21 01:18:37.160382"], ["updated_at", "2023-05-21 01:18:37.160382"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample28"], ["url", "cateogryExample28"], ["created_at", "2023-05-21 01:18:37.161457"], ["updated_at", "2023-05-21 01:18:37.161457"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample29"], ["url", "cateogryExample29"], ["created_at", "2023-05-21 01:18:37.162529"], ["updated_at", "2023-05-21 01:18:37.162529"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample30"], ["url", "cateogryExample30"], ["created_at", "2023-05-21 01:18:37.163573"], ["updated_at", "2023-05-21 01:18:37.163573"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample31"], ["url", "cateogryExample31"], ["created_at", "2023-05-21 01:18:37.164665"], ["updated_at", "2023-05-21 01:18:37.164665"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample32"], ["url", "cateogryExample32"], ["created_at", "2023-05-21 01:18:37.165708"], ["updated_at", "2023-05-21 01:18:37.165708"], ["parent_id", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mCategory Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
