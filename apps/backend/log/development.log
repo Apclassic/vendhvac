@@ -293,3 +293,543 @@ Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 2555)
   [1m[36mCategory Create (0.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "url", "created_at", "updated_at", "parent_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "cateogryExample32"], ["url", "cateogryExample32"], ["created_at", "2023-05-21 01:18:37.165708"], ["updated_at", "2023-05-21 01:18:37.165708"], ["parent_id", 1]]
   [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mCategory Count (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+Started GET "/" for ::1 at 2023-05-20 22:27:18 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PublicController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/home.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" IS NULL[0m
+  ↳ app/views/public/home.html.erb:1
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 1]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 2]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 3]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 4]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 5]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 6]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 7]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 8]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 9]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 10]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 11]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 12]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 13]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 14]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 15]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 16]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 33]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 34]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 35]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 36]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 37]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 38]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 39]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 40]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 41]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 42]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 43]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 44]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 45]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 46]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 47]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 48]]
+  ↳ app/views/public/home.html.erb:4
+  Rendered public/home.html.erb within layouts/application (Duration: 36.1ms | Allocations: 31054)
+  Rendered layout layouts/application.html.erb (Duration: 44.0ms | Allocations: 34649)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 1.9ms | Allocations: 40580)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-05-20 22:29:49 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PublicController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/home.html.erb within layouts/application
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" IS NULL[0m
+  ↳ app/views/public/home.html.erb:1
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 1]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 2]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 3]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 4]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 5]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 6]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 7]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 8]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 9]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 10]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 11]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 12]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 13]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 14]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 15]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 16]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 33]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 34]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 35]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 36]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 37]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 38]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 39]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 40]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 41]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 42]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 43]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 44]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 45]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 46]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 47]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 48]]
+  ↳ app/views/public/home.html.erb:4
+  Rendered public/home.html.erb within layouts/application (Duration: 38.1ms | Allocations: 31050)
+  Rendered layout layouts/application.html.erb (Duration: 43.3ms | Allocations: 34645)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 2.2ms | Allocations: 40580)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-05-20 22:31:06 -0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PublicController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/home.html.erb within layouts/application
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" IS NULL[0m
+  ↳ app/views/public/home.html.erb:1
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 1]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 2]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 3]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 4]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 5]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 6]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 7]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 8]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 9]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 10]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 11]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 12]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 13]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 14]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 15]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 16]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 33]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 34]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 35]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 36]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 37]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 38]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 39]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 40]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 41]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 42]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 43]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 44]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 45]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 46]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 47]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 48]]
+  ↳ app/views/public/home.html.erb:4
+  Rendered public/home.html.erb within layouts/application (Duration: 22.4ms | Allocations: 34822)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 39138)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 1.6ms | Allocations: 47634)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-05-20 22:41:50 -0500
+Processing by PublicController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/home.html.erb within layouts/application
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" IS NULL[0m
+  ↳ app/views/public/home.html.erb:1
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 1]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 2]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 3]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 4]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 5]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 6]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 7]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 8]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 9]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 10]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 11]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 12]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 13]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 14]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 15]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 16]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 33]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 34]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 35]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 36]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 37]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 38]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 39]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 40]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 41]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 42]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 43]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 44]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 45]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 46]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 47]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 48]]
+  ↳ app/views/public/home.html.erb:4
+  Rendered public/home.html.erb within layouts/application (Duration: 12.4ms | Allocations: 23349)
+  Rendered layout layouts/application.html.erb (Duration: 44.2ms | Allocations: 63124)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 1.6ms | Allocations: 63479)
+
+
+Started GET "/" for ::1 at 2023-05-20 22:41:52 -0500
+Processing by PublicController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/home.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" IS NULL[0m
+  ↳ app/views/public/home.html.erb:1
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 1]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 2]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 3]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 4]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 5]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 6]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 7]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 8]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 9]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 10]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 11]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 12]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 13]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 14]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 15]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 16]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 33]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 34]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 35]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 36]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 37]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 38]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 39]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 40]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 41]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 42]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 43]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 44]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 45]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 46]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 47]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 48]]
+  ↳ app/views/public/home.html.erb:4
+  Rendered public/home.html.erb within layouts/application (Duration: 20.9ms | Allocations: 23158)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 25467)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 1.6ms | Allocations: 25774)
+
+
+Started GET "/" for ::1 at 2023-05-20 22:52:52 -0500
+Processing by PublicController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/home.html.erb within layouts/application
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" IS NULL[0m
+  ↳ app/views/public/home.html.erb:1
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 1]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 2]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 3]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 4]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 5]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 6]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 7]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 8]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 9]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 10]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 11]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 12]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 13]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 14]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 15]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 16]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 33]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 34]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 35]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 36]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 37]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 38]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 39]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 40]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 41]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 42]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 43]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 44]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 45]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 46]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 47]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 48]]
+  ↳ app/views/public/home.html.erb:4
+  Rendered public/home.html.erb within layouts/application (Duration: 22.1ms | Allocations: 23331)
+  Rendered layout layouts/application.html.erb (Duration: 25.6ms | Allocations: 25658)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 2.1ms | Allocations: 25964)
+
+
+Started GET "/" for ::1 at 2023-05-21 13:17:04 -0500
+Processing by PublicController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/home.html.erb within layouts/application
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" IS NULL[0m
+  ↳ app/views/public/home.html.erb:1
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 1]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 2]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 3]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 4]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 5]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 6]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 7]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 8]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 9]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 10]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 11]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 12]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 13]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 14]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 15]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 16]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 33]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 34]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 35]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 36]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 37]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 38]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 39]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 40]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 41]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 42]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 43]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 44]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 45]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 46]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 47]]
+  ↳ app/views/public/home.html.erb:4
+  [1m[36mCategory Load (0.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."parent_id" = ?[0m  [["parent_id", 48]]
+  ↳ app/views/public/home.html.erb:4
+  Rendered public/home.html.erb within layouts/application (Duration: 38.9ms | Allocations: 23324)
+  Rendered layout layouts/application.html.erb (Duration: 44.7ms | Allocations: 25665)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 2.6ms | Allocations: 25964)
+
+

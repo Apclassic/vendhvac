@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Backend</title>
+    <title>VendHVAC</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "application", media: 'all' %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
+  <div class="body">
+<div class="main-left">
+</div>
+<div class="main-right">
     <%= yield %>
+    </div>
+    </div>
   </body>
 </html>
