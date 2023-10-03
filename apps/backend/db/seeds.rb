@@ -42,3 +42,7 @@ Category.create!([
 { name: "cateogryExample31", url: "cateogryExample31", parent_id: 1 },
 { name: "cateogryExample32", url: "cateogryExample32", parent_id: 1 },
 ])
+
+Article.create!([
+    { name: "Testing"}
+])
